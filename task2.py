@@ -47,6 +47,7 @@ line(327,313,338,320)#glaza
 line(353,313,342,320)
 polyline([(329,331),(333,328),(337,327),(341,327),(345,328),(349,331)])#rot
 c.create_oval(253,355,320,370, outline='#696969',fill='#696969',width=1)#ruka
+c.create_oval(360,355,430,370, outline='#696969',fill='#696969',width=1)
 line(256,285,256,460)
 c.create_oval(70,400,140,425, outline='#696969',fill='#696969',width=1)#koshka
 brushColor('#696969')
@@ -59,4 +60,9 @@ circle(74,396,4)
 brushColor('black')
 circle(66,396,2)
 circle(76,396,2)
+c.create_oval(77,413,85,447, outline='#696969',fill='#696969',width=1)#lapka
+c.create_oval(91,413,100,447, outline='#696969',fill='#696969',width=1)
+c.create_oval(116,413,125,447, outline='#696969',fill='#696969',width=1)
+c.create_oval(128,413,137,447, outline='#696969',fill='#696969',width=1)
+c.create_oval(130,375,140,425, outline='#696969',fill='#696969',width=1)#khvost
 run()
