@@ -32,9 +32,9 @@ rectangle(290,415,390,515)
 penColor('#2F4F4F')
 brushColor('#2F4F4F')
 rectangle(330,340,350,425)
-c.create_oval(300,450,335,470, outline='#696969',fill='#696969',width=1)#steps
+c.create_oval(300,450,335,470, outline='#696969',fill='#696969',width=1)#stopy
 c.create_oval(345,450,380,470, outline='#696969',fill='#696969',width=1)
-c.create_oval(315,410,335,465, outline='#696969',fill='#696969',width=1)#foot
+c.create_oval(315,410,335,465, outline='#696969',fill='#696969',width=1)#nogi
 c.create_oval(345,410,365,465, outline='#696969',fill='#696969',width=1)
 rectangle(290,415,390,425)
 brushColor('#C0C0C0')
