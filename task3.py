@@ -154,12 +154,11 @@ kot(450, 450, 1, -1, 1, 0.3)
 kot(450, 550, -1, 1, 1, 0.3)
 A = ['Green', 'Yellow', 'Orange', 'Blue', 'Brown']
 z = 'black'
-s = klubok(0.5, 1, 220, 200, z)
+s = klubok(0.5, 1, 220, 200, '')
 x = -10
 y = -10
 d_x = 5
 d_y = 5
-i=0
 
 print(y)
 def moving():
@@ -167,6 +166,7 @@ def moving():
     global y
     global d_x
     global d_y
+    global s
     global i
     for i in s:
         moveObjectBy(i, d_x, d_y)
@@ -196,6 +196,7 @@ def changecolor():
 
 
 
+onTimer(changecolor,100)
 onTimer(moving,100)
 
 run()
