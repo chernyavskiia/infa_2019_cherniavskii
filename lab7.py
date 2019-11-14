@@ -11,7 +11,6 @@ root.geometry('800x600')
 
 canv = Canvas(root, bg='white')
 canv.pack(fill=BOTH, expand=1)
-
 colors = ['red', 'orange', 'yellow', 'green', 'blue']
 score = 0
 Balls = []
@@ -85,5 +84,4 @@ canv.bind('<Button-1>', click)
 New_balls()
 mainloop()
 file.write(name + ':' + str(score))
-
 file.close()
