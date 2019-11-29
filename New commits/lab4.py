@@ -93,6 +93,6 @@ def click(event):
 new()
 canv.bind('<Button-1>', click)
 mainloop()
-file.write(name +':' + str(schyot))
+file.write(name +':' + str(schyot)+'\n')
 
 file.close()
