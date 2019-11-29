@@ -1,4 +1,4 @@
-file = open("file.txt", "w", newline="\n")
+file = open("file.txt", "a", newline="\n")
 from tkinter import *
 from random import randrange as rnd, choice
 import time
